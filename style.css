@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+.grid{
+    background-color: rgb(100, 100, 100);
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+
+/* <article class="item Azul"></article>
+<article class="item Verde"></article>
+<article class="item Naranja"></article>
+<article class="item Rojo"></article>
+<article class="item Violeta"></article> */
+.Azul{
+    background-color: blue;
+}
+.Verde{
+    background-color: green;
+}
+.Naranja{
+    background-color: orangered;
+}
+.Rojo{
+    background-color: red;
+}
+.Violeta{
+    background-color: rebeccapurple;
+}

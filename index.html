@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid ajustable</title>
+    <link rel="stylesheet" href="arregloMain.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">HOLA</a>
+        </nav>
+    </header>
+    <main>
+        <section class="grid">
+            <article onclick="cambiaColores('blue','200px')" class="item Azul"></article>
+            <article onclick="cambiaColores('green','300px')" class="item Verde"></article>
+            <article onclick="cambiaColores('orangered','400px')" class="item Naranja"></article>
+            <article onclick="cambiaColores('red','500px')" class="item Rojo"></article>
+            <article onclick="cambiaColores('rebeccapurple','600px')" class="item Violeta"></article>
+            <article onclick="reset()" class="item"></article>
+        </section>
+
+        <article class="item" id="caja"></article>
+    </main>
+    <footer>
+        &copy; DaVinci 2025
+    </footer>
+</body>
+<script defer src="script.js"></script>
+</html>
