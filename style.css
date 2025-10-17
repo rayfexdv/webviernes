@@ -23,17 +23,17 @@ body{
 <article class="item Rojo"></article>
 <article class="item Violeta"></article> */
 .Azul{
-    background-color: blue;
+    background-color: rgb(89, 89, 251);
 }
 .Verde{
-    background-color: green;
+    background-color: rgb(97, 211, 97);
 }
 .Naranja{
-    background-color: orangered;
+    background-color: rgb(238, 136, 99);
 }
 .Rojo{
-    background-color: red;
+    background-color: rgb(244, 85, 85);
 }
 .Violeta{
-    background-color: rebeccapurple;
+    background-color: rgb(164, 117, 211);
 }
